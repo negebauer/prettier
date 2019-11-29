@@ -13,7 +13,7 @@
   },
   "scripts": {
     "release": "standard-version",
-    "postrelease": "git push --follow-tags"
+    "postrelease": "git push --follow-tags && npm publish"
   },
   "devDependencies": {
     "standard-version": "^7.0.1"
