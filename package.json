@@ -5,7 +5,7 @@
   "main": "index.json",
   "repository": "git@github.com:negebauer/prettier-config.git",
   "license": "MIT",
-  "public": true,
+  "private": false,
   "author": {
     "name": "Nicolás Gebauer",
     "email": "hello@negebauer.com",
