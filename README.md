@@ -4,17 +4,22 @@
 
 ## Usage
 
-**Install**:
+Install with `yarn`
 
 ```bash
-npm i -D @negebauer/prettier-config
+yarn add -D @negebauer/prettier-config
 ```
 
-**Edit `package.json`**:
+Edit your package.json to add a `prettier` key
 
-```jsonc
+```json
 {
-  // ...
   "prettier": "@negebauer/prettier-config"
 }
+```
+
+Or create a `.prettierrc.json` file with the following
+
+```json
+"@negebauer/prettier-config"
 ```
